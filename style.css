@@ -1,0 +1,32 @@
+ul
+{
+    display:inline;
+    list-style-type:none;
+}
+
+li
+{
+    display:inline;
+    margin-left:15px;
+}
+
+div
+{
+    width:100%;
+    top:-295px;
+    right:0;
+    margin-left:80%;
+    font-size:13px;
+}
+.toolbar
+{
+    height:30px;
+    width:30px;
+    margin-left:15px;
+}
+
+#profile
+{
+    height:32px;
+    width:32px;
+}
