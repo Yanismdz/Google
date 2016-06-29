@@ -13,12 +13,9 @@ ul
 
 div
 {
-    /* background-color:blue; */
-    top:-295px;
-    right:0;
     margin-left:80%;
     font-size:13px;
-    height:40px;
+    height:5%;
 }
 
 /* Icone */
@@ -252,5 +249,7 @@ footer
 
 .bbr
 {
-    padding-left:65%;
+    background-color:red;
+    float:right;
+    width:300px;
 }
