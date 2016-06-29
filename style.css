@@ -1,6 +1,7 @@
 /* ----------BODY---------- */
 /* ------------------------ */
 /* ------------------------ */
+
 ul
 {
     font-family:arial; sans-serif;
@@ -13,7 +14,6 @@ ul
 div
 {
     /* background-color:blue; */
-    width:100%;
     top:-295px;
     right:0;
     margin-left:80%;
@@ -37,12 +37,14 @@ div
 {
     padding-top:7px;
     padding-bottom:7px;
+    opacity:.5;
 }
 
 #notif
 {
     padding-top:7px;
     padding-bottom:7px;
+    opacity:.5;
 }
 
 #profile
@@ -50,6 +52,11 @@ div
     height:100%;
     width:40px;
 }
+
+#ap:hover, #notif:hover
+		      {
+			  opacity:1;
+		      }
 
 /* List */
 ul
@@ -60,29 +67,30 @@ ul
     padding:0;
 }
 
-.top
+.top 				/*TOP LIST*/
 {
     display:inline-block;
     margin-left:15px;
     margin-top:0;
     padding:0;
+    
 }
 
-a:hover
+/* Top text link decoration changes */
+
+.top a:link, .top a:visited
       {
-	  text-decoration:underline;
+	  color:black;
+	  text-decoration:none;
+	  opacity:.75;
       }
 
-a:link
+.top a:hover
       {
-	  color:black;
-	  text-decoration:none;
+	  text-decoration:underline;
+	  opacity:1;
       }
-a:visited
-      {
-	  color:black;
-	  text-decoration:none;
-      }
+
 
 /* ----------Section-------- */
 /* ------------------------ */
@@ -138,17 +146,111 @@ input:focus
     text-align:center;
 }
 
-.bot
+.button a
 {
-    margin-top:19px;
+    padding: 10 25 10 25px;
+    background-color:#F4F4F4;
+}
+
+.but
+{
+    margin-top:23px;
     color:#757575;
     font-weight:bold;
     font-size:13px;
     display:inline-block;
-    padding-top:5px;
-    padding-right:15px;
-    padding-left:15px;
     height:30px;
-    background-color:#F4F4F4;
-    margin-left:8px;
+}
+
+/* Bot text link decoration */
+
+.button a:link, .button a:visited
+	      {
+		  color:#757575;
+		  text-decoration:none;
+	      }
+.button a:hover
+	      {
+		  color:black;
+		  border:#d9d9d9 solid 1px;
+	      }
+.button a:active
+	      {
+		  border:#4D90FE solid 1px;
+	      }
+
+/* ----------Footer-------- */
+/* ------------------------ */
+/* ------------------------ */
+
+footer
+{
+    height:40px;
+    width:100%;
+    Position:fixed;
+    bottom:0;
+    background-color:#F2F2F2;
+    padding:0;
+}
+
+.bbr,
+.bbl
+ {
+     height:100%;
+     margin:0;
+     padding-top:10px;
+ }
+
+.bbrl,
+.bbll
+ {
+     padding-left:8px;
+ }
+
+.bbrl a,
+.bbll a
+ {
+     padding:15 0 10 15px;
+ }
+
+/* LEFT LIST */
+.bbll a
+{
+    text-decoration:none;
+    color:#717171;
+    font-size:small;
+}
+
+.bbll a:hover
+	    {
+		text-decoration:underline;
+	    }
+
+.bbll
+{
+    display:inline-block;
+}
+
+/* RIGHT LIST */
+
+.bbrl a
+{
+    text-decoration:none;
+    color:#717171;
+    font-size:small;
+}
+
+.bbrl a:hover
+	    {
+		text-decoration:underline;
+	    }
+
+.bbrl
+{
+    display:inline-block;
+}
+
+.bbr
+{
+    padding-left:65%;
 }
