@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
     <head>
@@ -7,18 +8,26 @@
 	<meta charset="utf-8" />
     </head>
     <body>
-	<header> <!-- Header -->
+	<header> <!-- top bar of the page -->
 	    <div>
 		<ul>
-		    <li><a>Gmail</a></li>
-		    <li><a>Images</a></li>
+		    <li class="top"><a href="index.html">Gmail</a></li>
+		    <li class="top"><a href="index.html">Images</a></li>
 		</ul>
-		<a href="https://www.google.fr/intl/fr/options/"><img src="Bash.jpeg" alt="application" class="toolbar"/></a>
-		<a href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=RvxwV4KKMoO2abynqbgL&ved=0EKouCBUoAQ"><img src="Bash.jpeg" alt="notification" class="toolbar"/></a>
-		<a href="https://myaccount.google.com/"><img src="Bash.jpeg" alt="my account" class="toolbar" id="profile"/></a>
+		<a href="https://www.google.fr/intl/fr/options/"><img src="menu.png" alt="application" class="toolbar" id="ap"/></a>
+		<a href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=RvxwV4KKMoO2abynqbgL&ved=0EKouCBUoAQ"><img src="bell.png" alt="notification" class="toolbar" id="notif"/></a>
+		<a href="https://myaccount.google.com/"><img src="ken.png" alt="my account" class="toolbar" id="profile"/></a>
 	    </div>
 	</header>	    
-	<section>
-	</section>
+	<section> <!-- Middle of the page with navigation bar -->
+	    <img src="google.png" alt="google" class="center" id="mainpic" />
+	    <form action="" class="searchbar"> <!-- Navigation bar -->
+		<input class="champ" type="text" value=""/>
+	    </form>
+	    <ul class="button">
+		<li class="bot">Recherche Google</li>		    
+		<li class="bot">J'ai de la chance</li>
+	    </ul>
+	</section>	
     </body>
 </html>

@@ -1,32 +1,154 @@
+/* ----------BODY---------- */
+/* ------------------------ */
+/* ------------------------ */
 ul
 {
-    display:inline;
-    list-style-type:none;
+    font-family:arial; sans-serif;
 }
 
-li
-{
-    display:inline;
-    margin-left:15px;
-}
+/* ----------HEADER-------- */
+/* ------------------------ */
+/* ------------------------ */
 
 div
 {
+    /* background-color:blue; */
     width:100%;
     top:-295px;
     right:0;
     margin-left:80%;
     font-size:13px;
+    height:40px;
 }
+
+/* Icone */
 .toolbar
 {
-    height:30px;
-    width:30px;
+    display:inline-block;
+    vertical-align:top;
+    /* background-color:red; */
+    height:25px;
+    width:25px;
     margin-left:15px;
+    margin-right:0;
+}
+
+#ap
+{
+    padding-top:7px;
+    padding-bottom:7px;
+}
+
+#notif
+{
+    padding-top:7px;
+    padding-bottom:7px;
 }
 
 #profile
 {
-    height:32px;
-    width:32px;
+    height:100%;
+    width:40px;
+}
+
+/* List */
+ul
+{
+    display:inline-block;
+    list-style-type:none;
+    /* background-color:orange; */
+    padding:0;
+}
+
+.top
+{
+    display:inline-block;
+    margin-left:15px;
+    margin-top:0;
+    padding:0;
+}
+
+a:hover
+      {
+	  text-decoration:underline;
+      }
+
+a:link
+      {
+	  color:black;
+	  text-decoration:none;
+      }
+a:visited
+      {
+	  color:black;
+	  text-decoration:none;
+      }
+
+/* ----------Section-------- */
+/* ------------------------ */
+/* ------------------------ */
+
+/* Picture */
+#mainpic
+{
+    display:block;
+    width:272px;
+    height:92px;
+    margin:auto;
+    margin-top:150px;
+}
+
+/* Search Bar */
+
+form
+{
+    display:block;
+    width:100%;
+}
+
+input
+{
+    display:block;
+    width:587px;
+    height:26px;
+    margin:auto;
+    margin-top:28px;
+    padding:5px;
+    border:#D9D9D9 solid 1px;
+}
+
+input:hover
+	  {
+	      border:grey solid 1px;
+	  }
+
+input:focus
+	  {
+	      border:#4D90FE solid 1px;
+	  }
+	
+/* Button */
+
+.button
+{
+    display:inline-block;
+    margin:20px auto;
+    font-size:15px;
+    width:100%;
+    text-align:center;
+}
+
+.bot
+{
+    margin-top:19px;
+    color:#757575;
+    font-weight:bold;
+    font-size:13px;
+    display:inline-block;
+    padding-top:5px;
+    padding-right:15px;
+    padding-left:15px;
+    height:30px;
+    background-color:#F4F4F4;
+    margin-left:8px;
 }
